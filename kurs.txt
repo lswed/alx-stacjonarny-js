@@ -5,3 +5,5 @@ TEST TEST
 <script>
 
 </script>
+
+drugi commit bedzie dzieki tej zmianie 
