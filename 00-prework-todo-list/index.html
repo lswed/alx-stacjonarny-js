@@ -1,1 +1,106 @@
-<h1> Hello World </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ToDo List</h1>
+
+        <form id="newTaskForm"> 
+            <label for="taskName">
+                Nazwa zadania:
+            </label>
+            <input placeholder="Podaj nazwe zadania" type="text" name="task-title" id="task-title">
+            <button class="btn btn-success" type="submit">Add Todo</button>
+        </form>
+        <ul id="todoList">
+        </ul>
+    </div>
+
+    <div class="container">
+        <form id="clearTaskListForm">
+            <button class="btn btn-success" type="submit">Remove all tasks</button>
+        </form>
+        
+    </div>
+
+    <script src="index.js"></script>
+
+  <!-- <script>
+
+    // 1. Policz sumę cen produktów
+    const productPrices = [9.99, 4.78, 5.89];
+
+    // 2. Policz sume produktow
+    const products = [
+      {
+        name: 'Chleb',
+        price: 4.99
+      },
+      {
+        name: "Pomidory",
+        price: 9.99
+      },
+      {
+        name: "Olowek",
+        price: 1.20
+      }
+    ]
+
+    // 1.
+    let sum1 = 0;
+
+    for (const price of productPrices){
+        sum1 = sum1 + price;
+    }
+
+    // productPrices.forEach(price => {
+    //     sum1 = price;
+    // });
+    
+    console.log("1. Suma cen produktow wynosi: "+ sum1);
+
+    // 2a.
+
+    let sum2a= 0;
+
+    for(const product of products){
+        Object.keys(product).forEach(key => {
+            if(key == 'price'){
+                sum2a = sum2a + product[key];
+            }
+        });
+    }
+
+    console.log("2a. Suma produktów wynosi: " + sum2a);
+
+    // 2b.
+    let sum2b=0;
+    
+    for(const product of products){
+        if(product.hasOwnProperty('price')){
+            sum2b = sum2b + product.price;     
+        }
+    }
+
+    console.log("2b. Suma produktów wynosi: " + sum2b);
+
+    // 2c.
+
+    let sum2c = 0;
+
+    products.forEach(product => { 
+        console.log(product.price);
+        sum2c =+ product.price;
+    })
+
+    console.log("2c. Suma produktów wynosi: " + sum2c);
+    
+  </script> -->
+</body>
+</html>
