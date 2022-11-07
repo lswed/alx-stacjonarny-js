@@ -1,7 +1,7 @@
-const messageInput = document.querySelector("#message-input");
-const nameInput = document.querySelector("#name-input");
-const sendButton = document.querySelector("#send_message-button");
-const messagesList = document.querySelector("#messages-list");
+const messageInput = document.querySelector("#messageInput");
+const nameInput = document.querySelector("#nameInput");
+const sendButton = document.querySelector("#sendMessageButton");
+const messagesList = document.querySelector("#messagesList");
 
 let messages = JSON.parse(localStorage.getItem('messages'));
 
@@ -11,13 +11,12 @@ if(messages === null){
     messages.forEach(message => {
         messagesList.innerHTML += 
         `<li>
-         <b><i>${message.author}:</i></b>
+        <strong>${message.author}:</strong>
           ${message.message}
          </li>`    
         
     })
 }
-
 
 const sendMessage = (event) => {
     event.preventDefault();
@@ -33,7 +32,7 @@ const sendMessage = (event) => {
         // console.log(json);
         localStorage.setItem('messages', JSON.stringify(messages));
         messagesList.innerHTML += `<li>  
-            <b><i>${author}:</i></b>
+            <strong>${author}:</strong>
              ${message}
              </li>` 
         nameInput.value='';
