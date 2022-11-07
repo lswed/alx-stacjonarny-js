@@ -1,0 +1,67 @@
+{
+  "trains": [
+    {
+      "id": 1,
+      "from": "Warsaw",
+      "to": "Wroclaw",
+      "date": "07.11.2022",
+      "isPremium": true
+    },
+    {
+      "id": 2,
+      "from": "Kraków",
+      "to": "Wroclaw",
+      "date": "05.11.2022",
+      "isPremium": false
+    },
+    {
+      "id": 3,
+      "from": "Gdańsk",
+      "to": "Warszawa",
+      "date": "01.11.2022",
+      "isPremium": false
+    },
+    {
+      "id": 4,
+      "from": "Kołobrzeg",
+      "to": "Wrocław",
+      "date": "10.11.2022",
+      "isPremium": true
+    },
+    {
+      "id": 5,
+      "from": "Szczecin",
+      "to": "Wrocław",
+      "date": "4.11.2022",
+      "isPremium": false
+    },
+    {
+      "id": "5f195c40-4a58-43a6-9fe5-12c8d62e7d4f",
+      "from": "Warszawa",
+      "to": "Warszawa",
+      "date": "12.12.2023",
+      "isPremium": "True"
+    },
+    {
+      "id": "858e99a0-9bd1-4f28-ac02-fbbb85dd98aa",
+      "from": "Kielce",
+      "to": "Kielce",
+      "date": "13.12.2022",
+      "isPremium": "True"
+    },
+    {
+      "id": "f66f111e-f0ba-455b-9239-eaf69bc2ce2b",
+      "from": "Kraków",
+      "to": "Gdańsk",
+      "date": "01.01.2023",
+      "isPremium": "True"
+    },
+    {
+      "id": "c2ca801e-74e3-4070-8ca1-3bd899f0768c",
+      "from": "Kraków",
+      "to": "Warszawa",
+      "date": "01.01.2023",
+      "isPremium": "False"
+    }
+  ]
+}
