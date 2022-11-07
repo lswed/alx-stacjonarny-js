@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first chat</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Hello chat!</h1>
+    <div class="chat__div">
+        <ul 
+        id="messages-list"
+        class="messages__ul" >
+        </ul>
+    </div>
+    <div class="input__div">
+        <form id="messageForm">
+            <p>
+                <input 
+                type="text" 
+                id="name-input" 
+                class="name__input" 
+                placeholder="Wpisz swoje imię">
+            </p>
+            <p>
+                <input 
+                type="text" 
+                id="message-input" 
+                class="message__input" 
+                placeholder="Tutaj wpisz treść wiadomości">
+            </p>
+            <p>
+                <button 
+                type="submit" 
+                id="send_message-button" 
+                class="send__button">
+                Wyślij
+                </button>
+            </p>
+        </form>
+    </div>
+    <script src="./js/chat.js" type="module"></script>
+</body>
+</html>
